@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/wow/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 autoload -Uz url-quote-magic
 zle -N self-insert url-quote-magic
 # =============================================================================
