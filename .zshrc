@@ -168,3 +168,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# --------------------
+# Java
+# --------------------
+# 各版本对应的路径
+export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_11_HOME=`/usr/libexec/java_home -v 11`
+# 设置默认的 jdk 版本
+export JAVA_HOME=$JAVA_8_HOME
+# 动态切换版本的快捷命令
+alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
+alias jdk11="export JAVA_HOME=$JAVA_11_HOME"export PATH="/usr/local/opt/node@12/bin:$PATH"
